@@ -28,7 +28,7 @@ async def cb_handler(client: Bot, query: CallbackQuery):
             reply_markup = InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("💥​ᴄʟᴏꜱᴇ​💥", callback_data="close"),
+                        InlineKeyboardButton("🔒ᴄʟᴏꜱᴇ​🔒", callback_data="close"),
                         InlineKeyboardButton("🚀ʜᴇʟᴘ🚀", callback_data="help")
                     ]
                 ]
