@@ -23,7 +23,7 @@ async def cb_handler(client: Bot, query: CallbackQuery):
         )
     elif data == "about":
         await query.message.edit_text(
-            text = f"<b>Hi there this is a file store bot which is convert any file to link...\nthen you can access this file through a specific link...!\n\nCreator - @Its_Tartaglia_Childe\nMy Channel - @Anime_X_Hunters\nDicsussion Group - @Hunters_Discussion</a>\n\n👨‍💻 Developed by @Its_Tartaglia_Childe</b>",
+            text = f"<b>☬ My Network : @Uchiha_x_clan\n╭━━━━━━━━━━━━━━━━━━━━━━━━━\n○ Creator : <a href='https://t.me/notanimechidori'>Bucker ©</a>\n➖➖➖➖➖➖➖➖➖➖\n○ Language : <code>Python3</code>\n○ Library : <a href='https://docs.pyrogram.org/'>Pyrogram asyncio {__version__}</a>\n○ Source Code : <a href='https://t.me/notanimechidori'>Ask my Owner</a>\n➖➖➖➖➖➖➖➖➖➖\n○ Anime Channel : <a href='https://t.me/animechidori'>Anime Chidori</a>\n○ Ongoing Channel : <a href='https://t.me/ongoing_aniime'>Ongoing Anime</a>\n╰━━━━━━━━━━━━━━━━━━━━━━━━━</b>",
             disable_web_page_preview = True,
             reply_markup = InlineKeyboardMarkup(
                 [
